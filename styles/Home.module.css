@@ -1,15 +1,31 @@
-.pageBackground{
-    background-color: blanchedalmond;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+.pageBackground {
+  background-color: rgb(255, 245, 245);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
-.leftContainer{
-    flex: 59%;
-    background-color: aqua;
-    padding: 1%;
+.leftContainer {
+  flex: 59%;
+  background-color: rgb(255, 245, 245);
+  padding: 1%;
+  /* background: linear-gradient(
+    11deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(147, 218, 254, 0.8494748241093313) 100%
+  ); */
+  box-shadow: 0 4px 25px 25px #fff;
 }
-.rightContainer{
-    flex: 39%;
+.rightContainer {
+  flex: 39%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    11deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(52, 171, 232, 0.8494748241093313) 100%
+  );
+  box-shadow: 0 4px 25px 25px #fff;
 }
